@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Yonatan Yanuarius Eko Raharjo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="container nav-inner">
+        <a class="brand" href="index.html">Yonatan</a>
+        <div class="nav-right">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Tentang.html">Tentang Saya</a></li>
+            <li><a href="Pendidikan.html">Pendidikan</a></li>
+            <li><a href="Keahlian.html">Keahlian</a></li>
+            <li><a href="Pengalaman.html">Pengalaman</a></li>
+            <li><a class="active" href="Kontak.html">Kontak</a></li>
+        </ul>
+        <button type="button" id="theme-toggle" class="theme-toggle">🌙 Gelap</button>
+        </div>
+    </div>
+</nav>
+
+<header class="page-header">
+    <div class="container">
+        <p class="kicker">Yonatan Yanuarius Eko Raharjo</p>
+        <h1>Kontak</h1>
+    </div>
+</header>
+
+<main class="container pull-up">
+
+    <div class="grid-2">
+
+        <section class="card">
+            <h2>Formulir Kontak</h2>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <fieldset>
+                    <legend>Keperluan</legend>
+
+                    <input type="radio"
+                           id="kerja-sama"
+                           name="keperluan"
+                           value="Kerja sama proyek">
+
+                    <label for="kerja-sama">
+                        Kerja sama proyek
+                    </label><br>
+
+                    <input type="radio"
+                           id="bertanya"
+                           name="keperluan"
+                           value="Bertanya">
+
+                    <label for="bertanya">
+                        Bertanya
+                    </label><br>
+
+                    <input type="radio"
+                           id="lainnya"
+                           name="keperluan"
+                           value="Lainnya">
+
+                    <label for="lainnya">
+                        Lainnya
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Topik yang Diminati</legend>
+
+                    <input type="checkbox"
+                           id="pemrograman"
+                           name="topik"
+                           value="Pemrograman Web">
+
+                    <label for="pemrograman">
+                        Pemrograman Web
+                    </label><br>
+
+                    <input type="checkbox"
+                           id="basis-data"
+                           name="topik"
+                           value="Basis Data">
+
+                    <label for="basis-data">
+                        Basis Data
+                    </label><br>
+
+                    <input type="checkbox"
+                           id="uiux"
+                           name="topik"
+                           value="Data Analytics dan Desain UI/UX">
+
+                    <label for="uiux">
+                        Data Analytics dan Desain UI/UX
+                    </label>
+                </fieldset>
+
+                <p>
+                    <label for="status">Status:</label>
+
+                    <select id="status" name="status">
+                        <option value="">-- Pilih Status --</option>
+                        <option value="Mahasiswa">Mahasiswa</option>
+                        <option value="Dosen">Dosen</option>
+                        <option value="Umum">Umum</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="tanggal">Tanggal Pertemuan:</label>
+                    <input type="date" id="tanggal" name="tanggal">
+                </p>
+
+                <p>
+                    <label for="pesan">Pesan:</label>
+                    <textarea id="pesan"
+                              name="pesan"
+                              rows="6"
+                              placeholder="Tuliskan pesan Anda..."></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Kirim">
+                </p>
+
+            </form>
+        </section>
+
+        <aside class="card card-accent kontak-info">
+            <h3>Informasi Kontak</h3>
+
+            <p><strong>Email:</strong> yanuariusraharjo@gmail.com</p>
+
+            <p><strong>Domisili:</strong> Kendal, Jawa Tengah, Indonesia</p>
+        </aside>
+
+    </div>
+
+</main>
+
+<footer>
+    <div class="container">
+        <h3>Media Sosial</h3>
+
+        <div class="sosmed">
+            <a href="https://github.com/Cyeulla" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/yonatan-yanuarius-8b2007387/" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/nattyluwe.jpg/" target="_blank">Instagram</a>
+        </div>
+
+        <p class="motto">
+            "Lakuin apa yang kamu bisa, selagi itu di kapasitasmu, dan jangan lupa untuk terus belajar."
+        </p>
+
+        <p class="copy">&copy; 2026 Yonatan Yanuarius Eko Raharjo</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
